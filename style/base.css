@@ -2,6 +2,10 @@ html,
 body {
   margin: 0;
   padding: 0;
+    overscroll-behavior-y:contain;
+    user-select:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
 }
 
 button {
@@ -32,6 +36,10 @@ body {
   -ms-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
+    overscroll-behavior-y:contain;
+    user-select:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
 }
 
 #todoapp {
@@ -44,6 +52,10 @@ body {
   border-top-right-radius: 2px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2),
 				0 25px 50px 0 rgba(0, 0, 0, 0.15);
+    overscroll-behavior-y:contain;
+    user-select:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
 }
 
 #todoapp:before {
@@ -86,6 +98,10 @@ body {
 #header {
   padding-top: 15px;
   border-radius: inherit;
+    overscroll-behavior-y:contain;
+    user-select:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
 }
 
 #header:before {
@@ -141,12 +157,20 @@ body {
   background: rgba(0, 0, 0, 0.02);
   z-index: 2;
   box-shadow: none;
+    overscroll-behavior-y:contain;
+    user-select:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
 }
 
 #main {
   position: relative;
   z-index: 2;
   border-top: 1px dotted #adadad;
+    overscroll-behavior-y:contain;
+    user-select:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
 }
 
 label[for='toggle-all'] {
@@ -307,6 +331,10 @@ label[for='toggle-all'] {
   left: 0;
   height: 20px;
   z-index: 1;
+    overscroll-behavior-y:contain;
+    user-select:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
 }
 
 #footer:before {
@@ -375,6 +403,10 @@ label[for='toggle-all'] {
   font-size: 12px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
   text-align: center;
+    overscroll-behavior-y:contain;
+    user-select:none;
+    -webkit-tap-highlight-color:transparent;
+    -webkit-touch-callout:none;
 }
 
 #info a {
