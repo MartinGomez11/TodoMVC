@@ -17,6 +17,9 @@ const APP_SHELL =[
 
 const APP_SHELL_INMUTABLE = [
     'style/animate.css',
+        'https://fonts.googleapis.com/css?family=Quicksand:300,400',
+    'https://fonts.googleapis.com/css?family=Lato:400,300',
+    'https://use.fontawesome.com/releases/v5.3.1/css/all.css',
     'https://cdn.jsdelivr.net/npm/pouchdb@7.2.1/dist/pouchdb.min.js'
 ];
 
