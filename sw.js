@@ -9,6 +9,7 @@ const APP_SHELL =[
     'img/favicon.ico',
     'index.html',
     'style/base.css',
+    'style/animate.css',
     'style/bg.png',
     'js/app.js',
     'js/sw-utils.js',
